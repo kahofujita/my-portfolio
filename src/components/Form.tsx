@@ -9,7 +9,7 @@ const Form = () => {
       <InputComponent label="Email" type="text" />
       <div className={styles.textarea}>
         <label>メッセージ</label>
-        <textarea name="message" id="message" rows="6" />
+        <textarea name="message" id="message" />
       </div>
       <div>
         <ButtonComponent
