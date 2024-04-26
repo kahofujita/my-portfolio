@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import styles from "../app/page.module.css";
 import { useRouter } from "next/navigation";

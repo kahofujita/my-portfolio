@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "../app/page.module.css";
 import ButtonComponent from "./ButtonComponent";
 
