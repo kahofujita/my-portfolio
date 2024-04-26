@@ -16,7 +16,7 @@
 
 .nav ul {
   display: flex;
-  gap: 2rem;
+  gap: .5rem;
   list-style: none;
 }
 
@@ -28,7 +28,6 @@
 
 .about {
   background-color: rgb(var(--bg-end-rgb));
-  height: calc(100vh - 60px);
 }
 
 .about h1 {
@@ -49,7 +48,6 @@
   margin: 2rem;
   width: 85vw;
   height: 100%;
-  background: grey;
 }
 
 .aboutWrapper div:nth-child(1) img {
@@ -148,7 +146,7 @@
 .cardDevelopment {
   max-width: 350px;
   max-height: 550px;
-  width: 85vw;
+  width: 80vw;
   height: 21rem;
   border: 1px solid;
   padding: 1rem;
@@ -202,6 +200,14 @@
 /* Media Quary */
 
 @media (min-width: 500px) {
+  .nav ul {
+    gap: 2rem;
+  }
+
+  .about {
+    height: calc(100vh - 60px);
+  }
+
   .about h1 {
     font-size: 2rem;
   }
