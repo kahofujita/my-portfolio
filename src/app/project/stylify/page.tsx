@@ -65,9 +65,11 @@ const ProjectPage = () => {
             <Liner />
           </div>
           <div className={styles.projectDetailsBody}>
-            <div className={styles.projectDetailsBodySection}>
+            <div className={styles.projectDetailsBodySectionForStylify}>
               <div>
-                <img src="/images/remedi1.png" alt="" />
+                <img src="/images/stylify1.png" alt="" />
+                <img src="/images/stylify2.png" alt="" />
+                <img src="/images/stylify3.png" alt="" />
               </div>
               <div>
                 <p>
@@ -80,9 +82,21 @@ const ProjectPage = () => {
                   <br />
                   ・ユーザーデータの追加、更新、削除を行うサーバーサイドのエンドポイントを実装
                 </p>
+                <br />
+                <br />
+                <p>
+                  <span className="text-bold">
+                    ②JWT認証の導入によるセキュリティ強化
+                  </span>
+                  <br />
+                  <br />
+                  ・Node.jsとExpress.jsを使用して、すべてのエンドポイントへのアクセスを認証済みユーザーに制限するミドルウェアの追加
+                  <br />
+                  ・JWTトークンを利用してアプリがユーザーの認証情報を確認
+                </p>
               </div>
             </div>
-            <div className={styles.projectDetailsBodySection}>
+            {/* <div className={styles.projectDetailsBodySectionForStylify}>
               <div>
                 <img src="/images/remedi2.png" alt="" />
               </div>
@@ -98,11 +112,11 @@ const ProjectPage = () => {
                   ・JWTトークンを利用してアプリがユーザーの認証情報を確認
                 </p>
               </div>
-            </div>
-            <div className={styles.projectDetailsBodySection}>
+            </div> */}
+            <div className={styles.projectDetailsBodySectionForStylify}>
               <div>
-                <img src="/images/remedi3.png" alt="" />
-                <img src="/images/remedi4.png" alt="" />
+                <img src="/images/stylify4.png" alt="" />
+                <img src="/images/stylify5.png" alt="" />
               </div>
               <div>
                 <p>
@@ -124,8 +138,10 @@ const ProjectPage = () => {
                 </p>
               </div>
             </div>
-            <div className={styles.projectDetailsBodySection}>
-              <div></div>
+            <div className={styles.projectDetailsBodySectionForStylify}>
+              <div>
+                <img src="/images/stylify6.png" alt="" />
+              </div>
               <div>
                 <p>
                   <span className="text-bold">④検索機能の実装</span>
@@ -141,8 +157,11 @@ const ProjectPage = () => {
                 </p>
               </div>
             </div>
-            <div className={styles.projectDetailsBodySection}>
-              <div></div>
+            <div className={styles.projectDetailsBodySectionForStylify}>
+              <div>
+                <img src="/images/stylify7.png" alt="" />
+                <img src="/images/stylify8.png" alt="" />
+              </div>
               <div>
                 <p>
                   <span className="text-bold">⑤コンポーネントの作成</span>
@@ -239,7 +258,7 @@ const ProjectPage = () => {
             </div>
           </div>
         </div>
-        {/* <div className={styles.gitHub}>
+        <div className={styles.gitHub}>
           <div className={styles.githubHeader}>
             <h1>
               <span className="accent-color">GitHub</span> Repository
@@ -247,7 +266,7 @@ const ProjectPage = () => {
           </div>
           <div className={styles.githubBody}>
             <div className="iconsContainer">
-              <a href="/">
+              <a href="https://github.com/team-heisenberg/stylify" target="_blank">
                   <Image
                     src={"/icons/github.png"}
                     alt="GitHub"
@@ -258,7 +277,7 @@ const ProjectPage = () => {
               </a>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
       <Divider />
       <Footer />

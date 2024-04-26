@@ -128,7 +128,7 @@ html {
   background: rgb(var(--bg-start-rgb));
   color: rgb(var(--text-rgb));
   font-family: var(--font-noto-sans);
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 h1,

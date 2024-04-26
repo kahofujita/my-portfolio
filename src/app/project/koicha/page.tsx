@@ -31,7 +31,7 @@ const ProjectPage = () => {
           <h1 className={styles.projectTitle}>
             お茶屋さんのウェブサイトデザイン
           </h1>
-          <h1 className={styles.projectDatePlace}>2024.04制作</h1>
+          <h1 className={styles.projectDatePlace}>2024年4月制作</h1>
         </div>
         <div className={styles.projectOverview}>
           【インスピレーション】

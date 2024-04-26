@@ -15,7 +15,7 @@ const Form = () => {
         <ButtonComponent
           title="Send"
           onClick={() => {
-            console.log("sent!");
+            console.log("message sent!");
           }}
         />
       </div>

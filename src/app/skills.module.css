@@ -1,7 +1,6 @@
 .skills {
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 .skillsTitle {
@@ -62,6 +61,10 @@
 @media (min-width: 500px) {}
 
 @media (min-width: 800px) {
+    .skills {
+        height: 100vh;
+    }
+
     .skillsDetailsWrapper:nth-child(2) {
         display: flex;
         align-items: center;

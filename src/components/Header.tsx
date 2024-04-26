@@ -8,7 +8,7 @@ const Header = () => {
       <div className="logo">
         <a href="/">KAHO FUJITA</a>
       </div>
-      <HamburgerMenu />
+      {/* <HamburgerMenu /> */}
       <Nav />
     </div>
   );

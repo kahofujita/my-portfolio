@@ -63,9 +63,18 @@ const ProjectPage = () => {
             <Liner />
           </div>
           <div className={styles.projectDetailsBody}>
-            <div className={styles.projectDetailsBodySection}>
+            <div className={styles.projectDetailsBodySectionForGlobalPlayer}>
               <div>
-                <img src="/images/remedi1.png" alt="" />
+                <img
+                  src="/images/globalplayer1.png"
+                  alt=""
+                  className={styles.globalplayerImage1}
+                />
+                <img
+                  src="/images/globalplayer2.png"
+                  alt=""
+                  className={styles.globalplayerImage2}
+                />
               </div>
               <div>
                 <p>
@@ -86,9 +95,17 @@ const ProjectPage = () => {
                 </p>
               </div>
             </div>
-            <div className={styles.projectDetailsBodySection}>
+            <div className={styles.projectDetailsBodySectionForGlobalPlayer}>
               <div>
-                <img src="/images/remedi2.png" alt="" />
+                <img
+                  src="/images/globalplayer3.png"
+                  alt=""
+                  className={styles.globalplayerImage3}
+                />
+                <div className={styles.globalplayerImage4and5Wrapper}>
+                  <img src="/images/globalplayer4.png" alt="" />
+                  <img src="/images/globalplayer5.png" alt="" />
+                </div>
               </div>
               <div>
                 <p>
@@ -105,10 +122,17 @@ const ProjectPage = () => {
                 </p>
               </div>
             </div>
-            <div className={styles.projectDetailsBodySection}>
-              <div>
-                <img src="/images/remedi3.png" alt="" />
-                <img src="/images/remedi4.png" alt="" />
+            <div className={styles.projectDetailsBodySectionForGlobalPlayer}>
+              <div className={styles.globalplayerImage6to8Wrapper}>
+                <div className={styles.globalplayerImage6and7Wrapper}>
+                  <img src="/images/globalplayer6.png" alt="" />
+                  <img src="/images/globalplayer8.png" alt="" />
+                </div>
+                <img
+                  src="/images/globalplayer7.png"
+                  alt=""
+                  className={styles.globalplayerImage7}
+                />
               </div>
               <div>
                 <p>
@@ -126,10 +150,10 @@ const ProjectPage = () => {
                 </p>
               </div>
             </div>
-            <div className={styles.projectDetailsBodySection}>
+            <div className={styles.projectDetailsBodySectionForGlobalPlayer}>
               <div>
-                <img src="/images/remedi3.png" alt="" />
-                <img src="/images/remedi4.png" alt="" />
+                {/* <img src="/images/remedi3.png" alt="" />
+                <img src="/images/remedi4.png" alt="" /> */}
               </div>
               <div>
                 <p>
@@ -218,7 +242,7 @@ const ProjectPage = () => {
             </div>
           </div>
         </div>
-        {/* <div className={styles.gitHub}>
+        <div className={styles.gitHub}>
           <div className={styles.githubHeader}>
             <h1>
               <span className="accent-color">GitHub</span> Repository
@@ -226,7 +250,7 @@ const ProjectPage = () => {
           </div>
           <div className={styles.githubBody}>
             <div className="iconsContainer">
-              <a href="/">
+              <a href="https://github.com/zyzmoz/global-player" target="_blank">
                   <Image
                     src={"/icons/github.png"}
                     alt="GitHub"
@@ -237,7 +261,7 @@ const ProjectPage = () => {
               </a>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
       <Divider />
       <Footer />

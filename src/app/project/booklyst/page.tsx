@@ -29,7 +29,7 @@ const ProjectPage = () => {
       <div className={styles.project}>
         <div className={styles.projectHeader}>
           <h1 className={styles.projectTitle}>Booklyst　ウェブサイト</h1>
-          <h1 className={styles.projectDatePlace}>2022.06制作</h1>
+          <h1 className={styles.projectDatePlace}>2022年6月制作</h1>
         </div>
         <div className={styles.projectOverview}>
           【インスピレーション】
@@ -162,7 +162,7 @@ const ProjectPage = () => {
             </div>
           </div>
         </div>
-        {/* <div className={styles.gitHub}>
+        <div className={styles.gitHub}>
           <div className={styles.githubHeader}>
             <h1>
               <span className="accent-color">GitHub</span> Repository
@@ -170,7 +170,7 @@ const ProjectPage = () => {
           </div>
           <div className={styles.githubBody}>
             <div className="iconsContainer">
-              <a href="/">
+              <a href="/https://github.com/kahofujita/booklyst" target="_blank">
                   <Image
                     src={"/icons/github.png"}
                     alt="GitHub"
@@ -181,7 +181,7 @@ const ProjectPage = () => {
               </a>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
       <Divider />
       <Footer />

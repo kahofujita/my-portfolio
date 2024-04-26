@@ -67,7 +67,7 @@ const ProjectPage = () => {
           <div className={styles.projectDetailsBody}>
             <div className={styles.projectDetailsBodySection}>
               <div>
-                <img src="/images/remedi1.png" alt="" />
+                <img src="/images/mygreen1.png" alt="" />
               </div>
               <div>
                 <p>
@@ -86,7 +86,7 @@ const ProjectPage = () => {
             </div>
             <div className={styles.projectDetailsBodySection}>
               <div>
-                <img src="/images/remedi2.png" alt="" />
+                <img src="/images/mygreen2.png" alt="" />
               </div>
               <div>
                 <p>
@@ -111,7 +111,7 @@ const ProjectPage = () => {
             </div>
             <div className={styles.projectDetailsBodySection}>
               <div>
-                <img src="/images/remedi2.png" alt="" />
+                <img src="/images/mygreen3.png" alt="" />
               </div>
               <div>
                 <p>
@@ -163,7 +163,7 @@ const ProjectPage = () => {
             </div>
           </div>
         </div>
-        {/* <div className={styles.gitHub}>
+        <div className={styles.gitHub}>
           <div className={styles.githubHeader}>
             <h1>
               <span className="accent-color">GitHub</span> Repository
@@ -171,7 +171,7 @@ const ProjectPage = () => {
           </div>
           <div className={styles.githubBody}>
             <div className="iconsContainer">
-              <a href="/">
+              <a href="https://github.com/kahofujita/MyGreen" target="_blank">
                   <Image
                     src={"/icons/github.png"}
                     alt="GitHub"
@@ -182,7 +182,7 @@ const ProjectPage = () => {
               </a>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
       <Divider />
       <Footer />
