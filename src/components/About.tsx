@@ -10,16 +10,14 @@ const About = () => {
           <img src="/kahofujita.jpeg" alt="Kaho Fujita" />
         </div>
         <div>
-          <h1>
-            KAHO FUJITA
+          <h1 className={styles.aboutHeading}>
+            <span className="font-italic">Kaho Fujita</span>
             <br />
+            Full Stack Engineer &
             <br />
-            Web Designer &
+            Web Designer
             <br />
-            Full Stack Engineer
-            <br />
-            <br />
-            Based in Japan and Canada.
+            based in Japan and Canada.
           </h1>
           <a href="#design">
             <ButtonComponent title="作品を見る" />

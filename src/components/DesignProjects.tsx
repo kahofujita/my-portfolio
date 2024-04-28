@@ -7,7 +7,7 @@ const DesignProjects = () => {
     <div className={styles.designProjects}>
       <div className={styles.designProjectsWrapper}>
         <div>
-          <h1>My Design Projects</h1>
+          <h1>Design Projects</h1>
           <Liner />
         </div>
         <div>

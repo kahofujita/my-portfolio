@@ -106,7 +106,7 @@ a {
   }
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url("https://use.typekit.net/tnm7jpi.css");
 
 :root {
   --bg-start-rgb: 238 237 232;
@@ -114,8 +114,9 @@ a {
   --text-rgb: 38 38 38;
   --accent-rgb: 179 122 111;
   --hover-btn-rgb: 211 167 159;
-  --font-belleza: "Belleza";
-  --font-noto-sans: "Noto Sans JP";
+  --font-orpheuspro: "orpheuspro";
+  --font-garamond: "adobe-garamond-pro";
+  --font-noto-serif: "noto-serif";
   --media-desktop: 800px
 }
 
@@ -127,7 +128,7 @@ a {
 html {
   background: rgb(var(--bg-start-rgb));
   color: rgb(var(--text-rgb));
-  font-family: var(--font-noto-sans);
+  font-family: var(--font-noto-serif);
   scroll-behavior: smooth;
 }
 
@@ -136,7 +137,7 @@ h2,
 h3,
 h4,
 .logo {
-  font-family: var(--font-belleza), sans-serif;
+  font-family: var(--font-orpheuspro), serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -146,7 +147,7 @@ h1 {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 a {
@@ -156,6 +157,10 @@ a {
 
 .accent-color {
   color: rgb(var(--accent-rgb));
+}
+
+.font-italic {
+  font-style: italic;
 }
 
 .hoverTextAccent {
@@ -188,7 +193,14 @@ a {
 
 .iconImage {
   border-radius: 30%;
-  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transform: scale(1);
+  transition: all .2s;
+}
+
+.iconImage:hover {
+  transform: scale(1.1);
+  transition: all .2s;
 }
 
 .iconTextWrapper {
@@ -220,7 +232,7 @@ a.style-unset {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(38, 38, 38, 60%);
+  background-color: rgba(38, 38, 38, 80%);
   /* background-color: rgba(238, 237, 232, 60%); */
   color: rgb(var(--bg-start-rgb));
   opacity: 0;

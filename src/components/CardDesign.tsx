@@ -20,11 +20,12 @@ const CardDesign = ({ source, alt, id, title, date }: CardDesignInterface) => {
         router.push(`/project/${id}`);
       }}
     >
-      <img src={source} alt={title} />
-      <div className="hoverBg">
+      <div className={styles.cardDesignImage}>
+        <img src={source} alt={title} />
+      </div>
+      <div className={styles.cardDesignHoverEffect}>
         <h1>{title}</h1>
-        <br />
-        {date}
+        <div>{date}</div>
       </div>
     </div>
   );

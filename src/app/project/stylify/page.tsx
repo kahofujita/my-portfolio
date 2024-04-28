@@ -68,8 +68,6 @@ const ProjectPage = () => {
             <div className={styles.projectDetailsBodySectionForStylify}>
               <div>
                 <img src="/images/stylify1.png" alt="" />
-                <img src="/images/stylify2.png" alt="" />
-                <img src="/images/stylify3.png" alt="" />
               </div>
               <div>
                 <p>
@@ -96,27 +94,9 @@ const ProjectPage = () => {
                 </p>
               </div>
             </div>
-            {/* <div className={styles.projectDetailsBodySectionForStylify}>
-              <div>
-                <img src="/images/remedi2.png" alt="" />
-              </div>
-              <div>
-                <p>
-                  <span className="text-bold">
-                    ②JWT認証の導入によるセキュリティ強化
-                  </span>
-                  <br />
-                  <br />
-                  ・Node.jsとExpress.jsを使用して、すべてのエンドポイントへのアクセスを認証済みユーザーに制限するミドルウェアの追加
-                  <br />
-                  ・JWTトークンを利用してアプリがユーザーの認証情報を確認
-                </p>
-              </div>
-            </div> */}
             <div className={styles.projectDetailsBodySectionForStylify}>
               <div>
-                <img src="/images/stylify4.png" alt="" />
-                <img src="/images/stylify5.png" alt="" />
+                <img src="/images/stylify2.png" alt="" />
               </div>
               <div>
                 <p>
@@ -140,7 +120,7 @@ const ProjectPage = () => {
             </div>
             <div className={styles.projectDetailsBodySectionForStylify}>
               <div>
-                <img src="/images/stylify6.png" alt="" />
+                <img src="/images/stylify3.png" alt="" />
               </div>
               <div>
                 <p>
@@ -155,14 +135,8 @@ const ProjectPage = () => {
                   <br />
                   ・検索されたフィルターに基づいてデータベースから情報を取得し、UIに表示
                 </p>
-              </div>
-            </div>
-            <div className={styles.projectDetailsBodySectionForStylify}>
-              <div>
-                <img src="/images/stylify7.png" alt="" />
-                <img src="/images/stylify8.png" alt="" />
-              </div>
-              <div>
+                <br />
+                <br />
                 <p>
                   <span className="text-bold">⑤コンポーネントの作成</span>
                   <br />
@@ -266,14 +240,17 @@ const ProjectPage = () => {
           </div>
           <div className={styles.githubBody}>
             <div className="iconsContainer">
-              <a href="https://github.com/team-heisenberg/stylify" target="_blank">
-                  <Image
-                    src={"/icons/github.png"}
-                    alt="GitHub"
-                    width={70}
-                    height={70}
-                    className="iconImage"
-                  />
+              <a
+                href="https://github.com/team-heisenberg/stylify"
+                target="_blank"
+              >
+                <Image
+                  src={"/icons/github.png"}
+                  alt="GitHub"
+                  width={70}
+                  height={70}
+                  className="iconImage"
+                />
               </a>
             </div>
           </div>

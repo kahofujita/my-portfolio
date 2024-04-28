@@ -28,18 +28,25 @@
 .skillsDetailsWrapper>div {
     display: flex;
     flex-direction: column;
-    gap: 1.4rem;
+    gap: 1rem;
 }
 
 .iconsContainer {
     display: flex;
-    gap: .7rem;
+    gap: .6rem;
     flex-flow: wrap;
 }
 
 .iconImage {
     border-radius: 30%;
-    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transform: scale(1);
+    transition: all .2s;
+}
+
+.iconImage:hover {
+    transform: scale(1.1);
+    transition: all .2s;
 }
 
 .iconTextWrapper {
@@ -52,7 +59,7 @@
 
 .iconTextWrapper div {
     font-size: .9rem;
-    font-family: var(--font-belleza), sans-serif;
+    font-family: var(--font-orpheuspro), serif;
 }
 
 

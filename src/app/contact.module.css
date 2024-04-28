@@ -45,7 +45,7 @@
 .input {
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: .2rem;
 }
 
 .input input {
@@ -59,7 +59,7 @@
 .textarea {
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: .2rem;
 }
 
 .textarea textarea {
@@ -67,6 +67,7 @@
     border: 1px solid;
     border-color: var(--text-rgb);
     resize: vertical;
+    height: 8rem;
 }
 
 @media (min-width: 800px) {
@@ -83,7 +84,7 @@
     }
 
     .contactDetails>div {
-        gap: 5rem;
+        gap: 4rem;
     }
 
     .contactForm {

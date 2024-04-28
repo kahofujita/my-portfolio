@@ -6,7 +6,7 @@ const DevelopmentProjects = () => {
     <div className={styles.developmentProjects}>
       <div className={styles.developmentProjectsWrapper}>
         <div>
-          <h1>Web / Mobile App Development Projects（開発プロジェクト）</h1>
+          <h1>Development Projects（開発プロジェクト）</h1>
         </div>
         <div>
           <CardDevelopment
