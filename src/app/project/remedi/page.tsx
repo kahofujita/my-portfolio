@@ -176,7 +176,7 @@ const ProjectPage = () => {
                   ・Added interactive messaging functionality using WhatsApp
                   Flow API.
                   <br />
-                  ・Added patient's order requests to the database and sent to
+                  ・Added patient&apos;s order requests to the database and sent to
                   pharmacies.
                 </p>
               </div>

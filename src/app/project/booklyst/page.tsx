@@ -76,15 +76,15 @@ const ProjectPage = () => {
               <div>
                 <p>
                   <span className="text-bold">
-                    1. Unique Font for Site Title "Booklover"
+                    1. Unique Font for Site Title &quot;Booklover&quot;
                   </span>
                   <br />
                   <br />
-                  For the site title "Booklover," I've utilized the unique
-                  handwritten-style English font "Splash" to create a
-                  sophisticated charm as the site's logo. This font not only
+                  For the site title &quot;Booklover,&quot; I have utilized the unique
+                  handwritten-style English font &quot;Splash&quot; to create a
+                  sophisticated charm as the site logo. This font not only
                   conveys the excitement of book lovers but also sets it apart
-                  from the other font "Lato," achieving a more memorable design.
+                  from the other font &quot;Lato,&quot; achieving a more memorable design.
                   <br />
                   <br />
                   <br />
@@ -94,7 +94,7 @@ const ProjectPage = () => {
                   <br />
                   <br />
                   Visualization is crucial in any field. In the realm of books,
-                  while there's joy in imagining scenes as you read, using
+                  while there is joy in imagining scenes as you read, using
                   images can instantly provide impact. On the Booklyst website,
                   I incorporate numerous images to inspire readers.
                   <br />

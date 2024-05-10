@@ -40,7 +40,7 @@ const ProjectPage = () => {
           atmosphere of the interior space, and the dedication to tea utensils.
           <br />
           To capture this inspiration, I created a web design for a fictional
-          tea cafe called "Koicha".
+          tea cafe called &quot;Koicha&quot;.
           {/* <br />
           <br />
           <br />
@@ -74,11 +74,11 @@ const ProjectPage = () => {
                   </span>
                   <br />
                   <br />
-                  In Uji City, Kyoto Prefecture, one of Japan's representative
+                  In Uji City, Kyoto Prefecture, one of Japanese representative
                   tea-producing regions, green color represents the imagery of
                   tea across store branding, city signs, school uniforms, and
                   even train hand straps. Inspired by this ambiance, the website
-                  for "Koicha" employs deep green to exude an aura of
+                  for &quot;Koicha&quot; employs deep green to exude an aura of
                   sophistication and tranquility.
                   <br />
                   <br />
@@ -101,10 +101,10 @@ const ProjectPage = () => {
                   <br />
                   <br />
                   When selecting photos from free image sites like Unsplash,
-                  it's crucial to ensure they align with the aforementioned
-                  three colors and fit the website's concept. Photo selection
+                  it is crucial to ensure they align with the aforementioned
+                  three colors and fit the website concept. Photo selection
                   significantly influences web design quality, necessitating
-                  choosing images that align with the website's vibe.
+                  choosing images that align with the website vibe.
                   <br />
                   <br />
                   <br />
@@ -113,23 +113,23 @@ const ProjectPage = () => {
                   </span>
                   <br />
                   <br />
-                  Incorporating small illustrations utilizes the website's white
+                  Incorporating small illustrations utilizes the website white
                   space and guides toward an attractive design. Given the
-                  emphasis on wabi-sabi and simplicity in Koicha's website,
+                  emphasis on wabi-sabi and simplicity in Koicha&apos;s website,
                   simple illustrations of lines and circles are integrated.
                   <br />
                   <br />
                   <br />
                   <span className="text-bold">
-                    5. Fonts Aligning with Koicha's Brand Image
+                    5. Fonts Aligning with Koicha&apos;s Brand Image
                   </span>
                   <br />
                   <br />
-                  Using "Klee One" for Japanese text and "Garamond" for English,
+                  Using &quot;Klee One&quot; for Japanese text and &quot;Garamond&quot; for English,
                   Klee One offers a soft yet clear and user-friendly impression,
                   while Garamond, akin to many luxury brands, exudes a slight
                   sense of sophistication. These fonts enhance the luxurious
-                  feel of Koicha's website, blending wabi-sabi and softness into
+                  feel of Koicha&apos;s website, blending wabi-sabi and softness into
                   its image.
                 </p>
               </div>

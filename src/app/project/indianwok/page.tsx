@@ -122,7 +122,7 @@ const ProjectPage = () => {
                   </span>
                   <br />
                   <br />
-                  ・Utilized React's useContext hook to save items added to the
+                  ・Utilized React useContext hook to save items added to the
                   cart by users.
                   <br />
                   ・Data transfer is facilitated even when navigating to other

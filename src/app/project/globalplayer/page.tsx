@@ -36,7 +36,7 @@ const ProjectPage = () => {
         <div className={styles.projectOverview}>
           <span className="text-subtitle-italic">
             Web Application for Scouting Professional Players for the e-Sports
-            Game "League of Legends"
+            Game &quot;League of Legends&quot;
           </span>
           <br />
           <br />
