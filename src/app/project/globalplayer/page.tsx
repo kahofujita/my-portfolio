@@ -29,22 +29,29 @@ const ProjectPage = () => {
       <div className={styles.project}>
         <div className={styles.projectHeader}>
           <h1 className={styles.projectTitle}>Global Player</h1>
-          <h1 className={styles.projectDatePlace}>2022.09〜2022.12 | カナダ</h1>
+          <h1 className={styles.projectDatePlace}>
+            Sep 2022 - Dec 2022 | Canada
+          </h1>
         </div>
         <div className={styles.projectOverview}>
-          eスポーツゲーム「リーグ・オブ・レジェンド」のプロ選手スカウトWebアプリケーション
+          <span className="text-subtitle-italic">
+            Web Application for Scouting Professional Players for the e-Sports
+            Game "League of Legends"
+          </span>
           <br />
           <br />
-          【プロジェクト概要】
+          Project Overview:
           <br />
-          ・プロ選手のパフォーマンスデータやレビューなどの情報提供
+          ・Provision of information such as performance data and reviews for
+          professional players.
           <br />
-          ・プロの2選手の比較機能の実装
+          ・Implementation of a feature to compare the performance of two
+          professional players.
           <br />
-          ・RIOT APIとの統合により、リアルタイムでのデータ取得が可能
+          ・Integration with RIOT API enabling real-time data retrieval.
           <br />
           <br />
-          【URL】
+          URL:
           <br />
           <a
             href="https://www.globalplayer.ca/"
@@ -58,7 +65,6 @@ const ProjectPage = () => {
           <div className={styles.projectDetailsHeader}>
             <h1>
               My <span className="accent-color">Responsibilities</span>
-              （担当した業務）
             </h1>
             <Liner />
           </div>
@@ -74,19 +80,23 @@ const ProjectPage = () => {
               <div>
                 <p>
                   <span className="text-bold">
-                    ①リーグ・オブ・レジェンドのプレイヤーランキングページの開発
+                    1. Development of League of Legends Player Ranking Page
                   </span>
                   <br />
                   <br />
-                  ・RIOT APIの取得とプロジェクトへの統合
+                  ・Obtained and integrated RIOT API into the project.
                   <br />
-                  ・RIOT APIから取得した上位300プレイヤーのデータをMongoDBに格納
+                  ・Stored data of the top 300 players obtained from RIOT API
+                  into MongoDB.
                   <br />
-                  ・Axiosライブラリを使用して300プレイヤーのデータを取得し、UIに表示
+                  ・Used Axios library to retrieve data of 300 players and
+                  display it on the UI.
                   <br />
-                  ・プレイヤーの名前、アイコン、勝率、スキルなどのデータを図表や円グラフで視覚的に表示
+                  ・Visually represented player data such as name, icon, win
+                  rate, and skills using charts and pie graphs.
                   <br />
-                  ・上位3プレイヤーはランキング台に、4位以下はテーブル形式で表示
+                  ・Displayed top 3 players on ranking podium and 4th place and
+                  below in tabular form.
                 </p>
               </div>
             </div>
@@ -101,15 +111,16 @@ const ProjectPage = () => {
               <div>
                 <p>
                   <span className="text-bold">
-                    ②プレイヤーのパフォーマンス比較機能の追加
+                    2. Player Performance Comparison Feature
                   </span>
                   <br />
                   <br />
-                  ・スカウトが比較したい2プレイヤーを選択
+                  ・Implemented the functionality to select two players that
+                  scouts want to compare.
                   <br />
-                  ・選択した2プレイヤーのデータをすべてUIに表示
+                  ・Displayed all data of the selected two players on the UI.
                   <br />
-                  ・円グラフや折れ線グラフを使用してデータを視覚化
+                  ・Visualized data using pie charts and line graphs.
                 </p>
               </div>
             </div>
@@ -119,16 +130,19 @@ const ProjectPage = () => {
               </div>
               <div>
                 <p>
-                  <span className="text-bold">③洗練されたUIデザインの実装</span>
+                  <span className="text-bold">
+                    3. Implementation of Refined UI Design
+                  </span>
                   <br />
                   <br />
-                  ・カード、テーブル、サイドバー、円グラフ、折れ線グラフなどのコンポーネントの制作
+                  ・Created components such as cards, tables, sidebars, pie
+                  graphs, and line graphs.
                   <br />
-                  ・ピクセルパーフェクトなスタイリングの追求
+                  ・Pursued pixel-perfect styling.
                   <br />
-                  ・ハンバーガーメニューの追加
+                  ・Added a hamburger menu.
                   <br />
-                  ・デバイスごとのテストとレスポンシブデザインの確認
+                  ・Tested on different devices and confirmed responsive design.
                   <br />
                 </p>
               </div>
@@ -137,20 +151,20 @@ const ProjectPage = () => {
               <div></div>
               <div>
                 <p>
-                  <span className="text-bold">
-                    ④プロジェクトマネージャーとしての役割
-                  </span>
+                  <span className="text-bold">4. Project Management</span>
                   <br />
                   <br />
-                  ・アジャイル開発手法の導入、毎スプリントの進捗確認と締切管理
+                  ・Introduced Agile development methodology, monitored progress
+                  in each sprint, and managed deadlines.
                   <br />
-                  ・週次ミーティングのアジェンダ作成と進行
+                  ・Created agendas and facilitated weekly meetings.
                   <br />
-                  ・スタンドアップミーティングでブロッカーの確認と改善
+                  ・Identified and improved blockers during stand-up meetings.
                   <br />
-                  ・Trelloを使用したタスクのアサインと進捗管理
+                  ・Assigned tasks and tracked progress using Trello.
                   <br />
-                  ・Slackや対面ミーティングを通じたチーム間の明確かつ効果的なコミュニケーション
+                  ・Ensured clear and effective communication between teams via
+                  Slack and face-to-face meetings.
                   <br />
                 </p>
               </div>
@@ -159,7 +173,7 @@ const ProjectPage = () => {
         </div>
         <div className={styles.techStack}>
           <div className={styles.techStackHeader}>
-            <h1>Tech Stack（使用した技術）</h1>
+            <h1>Tech Stack</h1>
           </div>
           <div className={styles.techStackBody}>
             <div className="iconsContainer">

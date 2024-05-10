@@ -9,9 +9,9 @@ const Contact = () => {
             <h1>Contact</h1>
             <div className={styles.emailPhoneWrapper}>
               <a href="mailto:kahofujita1@gmail.com" target="_blank" className="hover-accent">kahofujita1@gmail.com</a>
-              <a href="tel:+19068297764" className="hover-accent">090-6829-7764</a>
+              <a href="tel:+19068297764" className="hover-accent">778-229-9734</a>
             </div>
-            <div>お問い合わせはこちらから。</div>
+            <div>Please send the message from the form.</div>
         </div>
       </div>
       <div className={styles.contactForm}>

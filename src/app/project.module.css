@@ -8,22 +8,24 @@
     margin: auto;
 }
 
-.projectHeader {}
-
 .projectTitle {
     color: rgb(var(--accent-rgb));
+    font-weight: 500;
 }
 
 .projectDatePlace {}
 
 .projectOverview {
-    /* font-family: var(--font-noto-sans); */
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .projectDetails {
     display: flex;
     gap: 2rem;
     flex-direction: column;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .projectDetailsBody {

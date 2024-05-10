@@ -29,24 +29,30 @@ const ProjectPage = () => {
       <div className={styles.project}>
         <div className={styles.projectHeader}>
           <h1 className={styles.projectTitle}>My Green</h1>
-          <h1 className={styles.projectDatePlace}>2022.04〜2022.08 | カナダ</h1>
+          <h1 className={styles.projectDatePlace}>
+            Apr 2022 - Aug 2022 | Canada
+          </h1>
         </div>
         <div className={styles.projectOverview}>
-          植物育成サービス系Webアプリケーション
+          <span className="text-subtitle-italic">
+            Web Application for Plant Cultivation Services
+          </span>
           <br />
           <br />
-          【プロジェクト概要】
+          Project Overview:
           <br />
-          ・植物の育て方ガイドの提供
+          ・Providing guides on how to grow plants.
           <br />
-          ・保有植物の管理と水やり、肥料やりのスケジュール管理
+          ・Management of owned plants including scheduling watering and
+          fertilizing.
           <br />
-          ・植物のスキャンと認証機能の実装
+          ・Implementation of plant scanning and plant identification
+          functionality.
           <br />
-          ・植物ジャーナルの記入や植物愛好家向けのSNSサービス
+          ・Plant journal and social media platform for plant enthusiasts.
           <br />
           <br />
-          【URL】
+          URL:
           <br />
           <a
             href="https://mygreen.netlify.app/"
@@ -60,7 +66,6 @@ const ProjectPage = () => {
           <div className={styles.projectDetailsHeader}>
             <h1>
               My <span className="accent-color">Responsibilities</span>
-              （担当した業務）
             </h1>
             <Liner />
           </div>
@@ -72,15 +77,17 @@ const ProjectPage = () => {
               <div>
                 <p>
                   <span className="text-bold">
-                    ①ユーザーが所有する植物を管理する機能の追加
+                    1. Plant Management Functionality for Users
                   </span>
                   <br />
                   <br />
-                  ・Firebaseのユーザーテーブルに、植物のデータプロパティを追加
+                  ・Added plant data properties to the Firebase user table.
                   <br />
-                  ・UIを介して植物の追加と削除を可能にする機能を導入
+                  ・Introduced functionality to add and remove plants via the
+                  frontend.
                   <br />
-                  ・データベースからユーザーの植物データを取得し、UIに表示
+                  ・Retrieved user plant data from the database and displayed it
+                  on the UI.
                 </p>
               </div>
             </div>
@@ -91,21 +98,28 @@ const ProjectPage = () => {
               <div>
                 <p>
                   <span className="text-bold">
-                    ②植物の水やりと肥料管理機能の追加
+                    2. Implementation of Plants Watering and Fertilizing
+                    Management Functionality
                   </span>
                   <br />
                   <br />
-                  ・カレンダーから水やりや肥料やりの日付を追加可能にする機能を導入
+                  ・Implemented functionality to add watering and fertilizing
+                  dates from the calendar.
                   <br />
-                  ・ユーザーが水やりと肥料やりを行った日をデータベースに追加
+                  ・Added user-recorded watering and fertilizing dates to the
+                  database.
                   <br />
-                  ・各植物の水やりと肥料やりの頻度を考慮し、適切な情報を提供
+                  ・Provided appropriate information considering the watering
+                  and fertilizing frequency of each plant.
                   <br />
-                  ・次回の水やりと肥料やりが必要な日の1日前にリマインダーを表示する機能を実装
+                  ・Implemented a reminder feature to display reminders one day
+                  before the next watering and fertilizing date.
                   <br />
-                  ・最終水やりと肥料やりの日付を更新できる機能を実装
+                  ・Implemented functionality to update the last watering and
+                  fertilizing dates.
                   <br />
-                  ・各植物の必要な日光量と日光に当たる頻度の情報を表示
+                  ・Displayed information on the required amount of sunlight and
+                  frequency of exposure to sunlight for each plant.
                 </p>
               </div>
             </div>
@@ -115,12 +129,15 @@ const ProjectPage = () => {
               </div>
               <div>
                 <p>
-                  <span className="text-bold">③植物の詳細画面の追加</span>
+                  <span className="text-bold">
+                    3. Development of Plant Detail Screen
+                  </span>
                   <br />
                   <br />
-                  ・植物の詳細情報をデータベースに保存
+                  ・Saved detailed plant information to the database.
                   <br />
-                  ・ユーザーが植物を検索すると、データベースから情報を取得し、詳細画面に表示
+                  ・When users search for a plant, retrieved information from
+                  the database and displayed it on the detail screen.
                 </p>
               </div>
             </div>
@@ -128,7 +145,7 @@ const ProjectPage = () => {
         </div>
         <div className={styles.techStack}>
           <div className={styles.techStackHeader}>
-            <h1>Tech Stack（使用した技術）</h1>
+            <h1>Tech Stack</h1>
           </div>
           <div className={styles.techStackBody}>
             <div className="iconsContainer">
@@ -172,13 +189,13 @@ const ProjectPage = () => {
           <div className={styles.githubBody}>
             <div className="iconsContainer">
               <a href="https://github.com/kahofujita/MyGreen" target="_blank">
-                  <Image
-                    src={"/icons/github.png"}
-                    alt="GitHub"
-                    width={70}
-                    height={70}
-                    className="iconImage"
-                  />
+                <Image
+                  src={"/icons/github.png"}
+                  alt="GitHub"
+                  width={70}
+                  height={70}
+                  className="iconImage"
+                />
               </a>
             </div>
           </div>

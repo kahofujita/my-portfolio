@@ -28,18 +28,19 @@ const ProjectPage = () => {
       </div>
       <div className={styles.project}>
         <div className={styles.projectHeader}>
-          <h1 className={styles.projectTitle}>
-            お茶屋さんのウェブサイトデザイン
-          </h1>
-          <h1 className={styles.projectDatePlace}>2024年4月制作</h1>
+          <h1 className={styles.projectTitle}>Website Design for a Tea Shop</h1>
+          <h1 className={styles.projectDatePlace}>Created in April 2024</h1>
         </div>
         <div className={styles.projectOverview}>
-          【インスピレーション】
+          <span className="text-subtitle">Inspiration:</span>
           <br />
           <br />
-          あるお茶屋さんを訪れた際、他の地域から集められた多様な茶葉の香りや味、落ち着いた雰囲気の店内空間、そして茶器へのこだわりに触れ、それぞれに感銘を受けました。
+          When visiting a tea shop, I was deeply impressed by the diverse aromas
+          and flavors of tea leaves gathered from various regions, the tranquil
+          atmosphere of the interior space, and the dedication to tea utensils.
           <br />
-          このインスピレーションを形に残すため、架空のお茶屋さん「恋茶」のウェブデザインを制作しました。
+          To capture this inspiration, I created a web design for a fictional
+          tea cafe called "Koicha".
           {/* <br />
           <br />
           <br />
@@ -69,45 +70,67 @@ const ProjectPage = () => {
               <div>
                 <p>
                   <span className="text-bold">
-                    ①お茶をイメージさせる色は深緑色
+                    1. Deep Green Evokes Tea Imagery
                   </span>
                   <br />
                   <br />
-                  日本茶の代表的な産地の一つである京都府宇治市では、店舗のブランディングカラーや街中の看板、学校の制服、電車の吊り革まで、緑色が茶のイメージを表現しています。この雰囲気に触発され、恋茶のウェブサイトも深緑色を使用し、高級感と落ち着きのある雰囲気を演出しています。
-                  <br />
-                  <br />
-                  <br />
-                  <span className="text-bold">②３色の調和したブレンド</span>
-                  <br />
-                  <br />
-                  深緑色（#3D3A1B）で大人の雰囲気を演出しつつ、肌色（#EAE2D7）でしなやかさと深緑色とのコントラストを加え、黄色（#E8D939）でアクセントをつけることで、単調さを避け、人目を引く魅力的なカラーコンビネーションを実現しています。
+                  In Uji City, Kyoto Prefecture, one of Japan's representative
+                  tea-producing regions, green color represents the imagery of
+                  tea across store branding, city signs, school uniforms, and
+                  even train hand straps. Inspired by this ambiance, the website
+                  for "Koicha" employs deep green to exude an aura of
+                  sophistication and tranquility.
                   <br />
                   <br />
                   <br />
                   <span className="text-bold">
-                    ③雰囲気を決定するための写真選定
+                    2. Harmonious Blend of Three Colors
                   </span>
                   <br />
                   <br />
-                  Unsplashなどのフリー画像サイトから写真を選ぶ際には、前述の３色に合致し、ウェブサイトのコンセプトに合うかどうかを確認することが重要です。写真の選定はウェブデザインの質に大きく影響するため、ウェブサイトのイメージに合った写真を選ぶ必要があります。
+                  Creating an atmosphere of maturity with deep green (#3D3A1B),
+                  adding suppleness and contrast with skin color (#EAE2D7), and
+                  accentuating with yellow (#E8D939) avoids monotony, achieving
+                  an eye-catching and appealing color combination.
                   <br />
                   <br />
                   <br />
                   <span className="text-bold">
-                    ④シンプルな線や丸を用いたイラストレーション
+                    3. Photo Selection to Determine Ambiance
                   </span>
                   <br />
                   <br />
-                  小さなイラストを追加することで、ウェブサイトの余白を活用し、魅力的なデザインに導きます。恋茶のウェブサイトは侘び寂びやシンプルさを重視しているため、線や丸のシンプルなイラストを取り入れています。
+                  When selecting photos from free image sites like Unsplash,
+                  it's crucial to ensure they align with the aforementioned
+                  three colors and fit the website's concept. Photo selection
+                  significantly influences web design quality, necessitating
+                  choosing images that align with the website's vibe.
                   <br />
                   <br />
                   <br />
                   <span className="text-bold">
-                    ⑤恋茶のブランドのイメージに合うフォント
+                    4. Illustrations Using Simple Lines and Circles
                   </span>
                   <br />
                   <br />
-                  和文には「クレーOne」、欧文には「Garamond」を使用しています。クレーOneはしっとりとした柔らかい印象を与えながら、明瞭で読みやすく、ユーザーにも親しみやすいフォントです。一方、Garamondは多くの高級ブランドで使用されるような、少し高級感のあるフォントです。これらのフォントは、恋茶のウェブサイトに高級感を演出し、侘びやびと柔らかさを融合させたイメージを作り出しています。
+                  Incorporating small illustrations utilizes the website's white
+                  space and guides toward an attractive design. Given the
+                  emphasis on wabi-sabi and simplicity in Koicha's website,
+                  simple illustrations of lines and circles are integrated.
+                  <br />
+                  <br />
+                  <br />
+                  <span className="text-bold">
+                    5. Fonts Aligning with Koicha's Brand Image
+                  </span>
+                  <br />
+                  <br />
+                  Using "Klee One" for Japanese text and "Garamond" for English,
+                  Klee One offers a soft yet clear and user-friendly impression,
+                  while Garamond, akin to many luxury brands, exudes a slight
+                  sense of sophistication. These fonts enhance the luxurious
+                  feel of Koicha's website, blending wabi-sabi and softness into
+                  its image.
                 </p>
               </div>
             </div>
@@ -116,8 +139,7 @@ const ProjectPage = () => {
         <div className={styles.techStack}>
           <div className={styles.techStackHeader}>
             <h1>
-              <span className="accent-color">Design</span> Tools /
-              Inspirations（使用したツール）
+              <span className="accent-color">Design</span> Tools / Inspirations
             </h1>
           </div>
           <div className={styles.techStackBody}>

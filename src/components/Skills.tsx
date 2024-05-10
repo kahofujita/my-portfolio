@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div className={styles.skills}>
       <div className={styles.skillsTitle}>
-        <h1>Skills（スキル）</h1>
+        <h1>Skills</h1>
         <Liner />
       </div>
       <div className={styles.skillsDetails}>

@@ -28,21 +28,24 @@ const ProjectPage = () => {
       </div>
       <div className={styles.project}>
         <div className={styles.projectHeader}>
-          <h1 className={styles.projectTitle}>Booklyst　ウェブサイト</h1>
-          <h1 className={styles.projectDatePlace}>2022年6月制作</h1>
+          <h1 className={styles.projectTitle}>Booklyst Website</h1>
+          <h1 className={styles.projectDatePlace}>Created in June 2022</h1>
         </div>
         <div className={styles.projectOverview}>
-          【インスピレーション】
+          <span className="text-subtitle">Inspiration:</span>
           <br />
           <br />
-          本好きにとって、さまざまなジャンルの本やトレンドの本が紹介される空間は、非常に心躍る場所だと思います。私自身も本好きであり、本好きにとってワクワクするようなウェブサイトを制作することに尽力しました。
+          For book lovers, a space where books of various genres and trending
+          titles are showcased is an exhilarating place, I believe. Being a book
+          enthusiast myself, I devoted effort to creating a website that excites
+          fellow book lovers.
           <br />
-          ※このプロジェクトはデザインが主体であり、コンテンツはLorem
-          Ipsum...を使用しています。
+          ※ This project primarily focuses on design, and Lorem Ipsum... is used
+          for content.
           <br />
           <br />
           <br />
-          【URL】
+          URL:
           <br />
           <a
             href="https://booklyst.netlify.app/"
@@ -73,36 +76,52 @@ const ProjectPage = () => {
               <div>
                 <p>
                   <span className="text-bold">
-                    ①サイトタイトル「Booklover」にユニークなフォントを使用
+                    1. Unique Font for Site Title "Booklover"
                   </span>
                   <br />
                   <br />
-                  サイトタイトル「Booklover」には、ユニークな手書き風欧文フォント「Splash」を使用し、サイトのロゴとして洗練された魅力を演出しています。このフォントは、本好きのワクワク感を伝える一方で、他のフォント「Lato」との差別化も図っており、より印象的なデザインを実現しています。
+                  For the site title "Booklover," I've utilized the unique
+                  handwritten-style English font "Splash" to create a
+                  sophisticated charm as the site's logo. This font not only
+                  conveys the excitement of book lovers but also sets it apart
+                  from the other font "Lato," achieving a more memorable design.
                   <br />
                   <br />
                   <br />
                   <span className="text-bold">
-                    ②多数の画像を使用して本のイメージをビジュアル化
+                    2. Visualizing Book Imagery with Numerous Images
                   </span>
                   <br />
                   <br />
-                  ビジュアル化はどの分野でも重要です。本の世界では、文章を読んで頭の中でイメージを膨らませる楽しさがありますが、画像を使うことで一目でインパクトを与えることができます。Booklystのウェブサイトでは、多数の画像を使用し、ユーザーにインスピレーションを与えます。
-                  <br />
-                  <br />
-                  <br />
-                  <span className="text-bold">③本からの引用をピックアップ</span>
-                  <br />
-                  <br />
-                  世界中には素晴らしい本がたくさんありますが、素晴らしい引用を見ることも一つの楽しみです。Booklystでは本からの名言をピックアップし、日替わりで紹介するセクションを設けています。
+                  Visualization is crucial in any field. In the realm of books,
+                  while there's joy in imagining scenes as you read, using
+                  images can instantly provide impact. On the Booklyst website,
+                  I incorporate numerous images to inspire readers.
                   <br />
                   <br />
                   <br />
                   <span className="text-bold">
-                    ④ウェブサイト上のアニメーション
+                    3. Highlighting Quotes from Books
                   </span>
                   <br />
                   <br />
-                  本の画像をクリックした際のアニメーションや、ギャラリーの画像にマウスを移動した際のアニメーション、ナビゲーションやボタンのホバーエフェクトなど、ウェブサイト上にさまざまなアニメーションを取り入れ、静的なデザインに加えてユーザーにインタラクティブで洗練されたUIデザインを提供しています。
+                  While there are many wonderful books worldwide, finding
+                  remarkable quotes is also a pleasure. At Booklyst, I feature a
+                  section where quotes are picked from books and presented
+                  daily.
+                  <br />
+                  <br />
+                  <br />
+                  <span className="text-bold">
+                    4. Animations on the Website
+                  </span>
+                  <br />
+                  <br />
+                  Incorporating various animations on the website, such as
+                  animations when clicking on book images, when hovering over
+                  gallery images, and hover effects on navigation and buttons,
+                  adds an interactive and refined UI design to the static
+                  design, enhancing user experience.
                 </p>
               </div>
             </div>
@@ -112,7 +131,7 @@ const ProjectPage = () => {
           <div className={styles.techStackHeader}>
             <h1>
               Tech Stack /<span className="accent-color"> Design</span>{" "}
-              Inspirations（使用したツール）
+              Inspirations
             </h1>
           </div>
           <div className={styles.techStackBody}>
@@ -171,13 +190,13 @@ const ProjectPage = () => {
           <div className={styles.githubBody}>
             <div className="iconsContainer">
               <a href="/https://github.com/kahofujita/booklyst" target="_blank">
-                  <Image
-                    src={"/icons/github.png"}
-                    alt="GitHub"
-                    width={70}
-                    height={70}
-                    className="iconImage"
-                  />
+                <Image
+                  src={"/icons/github.png"}
+                  alt="GitHub"
+                  width={70}
+                  height={70}
+                  className="iconImage"
+                />
               </a>
             </div>
           </div>

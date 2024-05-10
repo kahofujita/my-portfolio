@@ -5,10 +5,10 @@ import styles from "../app/contact.module.css";
 const Form = () => {
   return (
     <form className={styles.form}>
-      <InputComponent label="氏名/会社名" type="text" />
+      <InputComponent label="Name / Company Name" type="text" />
       <InputComponent label="Email" type="text" />
       <div className={styles.textarea}>
-        <label>メッセージ</label>
+        <label>Message</label>
         <textarea name="message" id="message" />
       </div>
       <div>

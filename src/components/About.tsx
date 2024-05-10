@@ -13,14 +13,14 @@ const About = () => {
           <h1 className={styles.aboutHeading}>
             <span className="font-italic">Kaho Fujita</span>
             <br />
-            Full Stack Engineer &
+            Full Stack Developer &
             <br />
             Web Designer
             <br />
-            based in Japan and Canada.
+            based in Vancouver, Canada.
           </h1>
           <a href="#design">
-            <ButtonComponent title="作品を見る" />
+            <ButtonComponent title="My Works" />
           </a>
         </div>
       </div>

@@ -16,14 +16,14 @@ const DesignProjects = () => {
             alt="Koicha Website Design"
             id="koicha"
             title="Koicha"
-            date="2024年4月制作"
+            date="April 2024"
           />
           <CardDesign
             source="/booklyst.png"
             alt="Booklyst Website"
             id="booklyst"
             title="Booklyst"
-            date="2022年6月制作"
+            date="June 2022"
           />
         </div>
       </div>

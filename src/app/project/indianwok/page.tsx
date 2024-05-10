@@ -28,23 +28,26 @@ const ProjectPage = () => {
       </div>
       <div className={styles.project}>
         <div className={styles.projectHeader}>
-          <h1 className={styles.projectTitle}>
-            Indian Wokレストランのウェブサイト
+          <h1 className={styles.projectTitle}>Indian Wok Restaurant Website</h1>
+          <h1 className={styles.projectDatePlace}>
+            Jan 2023 - Aug 2023 | Canada
           </h1>
-          <h1 className={styles.projectDatePlace}>2023.01〜2023.08 | カナダ</h1>
         </div>
         <div className={styles.projectOverview}>
-          カナダに立地するインド料理と中華料理のフュージョンレストランのウェブサイト
+          <span className="text-subtitle-italic">
+            Indian and Chinese Fusion Restaurant Website
+          </span>
           <br />
           <br />
-          【プロジェクト概要】
+          Project Overview:
           <br />
-          ・レストランのウェブサイト開発で、注文機能の実装
+          ・Website development for the restaurant with implementation of
+          ordering functionality.
           <br />
-          ・レストランオーナーがCMSを用いてサイトの編集と更新が可能
+          ・Restaurant owner can edit and update the site using a CMS.
           <br />
           <br />
-          【URL】
+          URL:
           <br />
           <a
             href="https://www.indianwok.ca/"
@@ -58,7 +61,6 @@ const ProjectPage = () => {
           <div className={styles.projectDetailsHeader}>
             <h1>
               My <span className="accent-color">Responsibilities</span>
-              （担当した業務）
             </h1>
             <Liner />
           </div>
@@ -70,17 +72,20 @@ const ProjectPage = () => {
               <div>
                 <p>
                   <span className="text-bold">
-                    ①ユーザーフレンドリーなCMSを使用したバックエンド開発
+                    1. Backend Development Using User-Friendly CMS
                   </span>
                   <br />
                   <br />
-                  ・ウェブサイトのバックエンドとしてWordPressを採用
+                  ・WordPress adopted as the backend for the website.
                   <br />
-                  ・WordPress管理画面から、メニューや写真などウェブサイトのコンテンツを編集、削除、更新可能
+                  ・Content such as menus and photos can be edited, deleted, and
+                  updated from the WordPress admin panel.
                   <br />
-                  ・WordPressのGraphQLプラグインを利用して、GraphQLデータベースを構築
+                  ・Utilized WordPress GraphQL plugin to build a GraphQL
+                  database.
                   <br />
-                  ・データベースとフロントエンドを連携し、リアルタイムデータをサイトに表示
+                  ・Integrated the database with the frontend to display
+                  real-time data on the site.
                 </p>
               </div>
             </div>
@@ -90,14 +95,18 @@ const ProjectPage = () => {
               </div>
               <div>
                 <p>
-                  <span className="text-bold">②メニューのカテゴリー化実装</span>
+                  <span className="text-bold">
+                    2. Implementation of Menu Categorization
+                  </span>
                   <br />
                   <br />
-                  ・WordPress内で14種類のカテゴリーを作成し、メニューを各カテゴリーに分類
+                  ・Created 14 categories within WordPress and classified the
+                  menu into each category.
                   <br />
-                  ・各カテゴリーのナビゲーションをフロントエンドに実装
+                  ・Implemented navigation for each category on the frontend.
                   <br />
-                  ・フロントエンドからカテゴリー別にバックエンドの正確なデータを取得して表示
+                  ・Retrieved and displayed accurate backend data categorized by
+                  each category from the frontend.
                 </p>
               </div>
             </div>
@@ -108,16 +117,22 @@ const ProjectPage = () => {
               </div>
               <div>
                 <p>
-                  <span className="text-bold">③カート機能の実装</span>
+                  <span className="text-bold">
+                    3. Implementation of Cart Functionality
+                  </span>
                   <br />
                   <br />
-                  ・ReactのuseContextフックを活用して、ユーザーがカートに追加したアイテムを保存
+                  ・Utilized React's useContext hook to save items added to the
+                  cart by users.
                   <br />
-                  ・useContextフックを使用することで、他のページへ移動してもデータの受け渡しが可能
+                  ・Data transfer is facilitated even when navigating to other
+                  pages using the useContext hook.
                   <br />
-                  ・カートにアイテムが追加されると、左上のカートアイコンに数量を表示
+                  ・When items are added to the cart, the quantity is displayed
+                  on the cart icon in the top left.
                   <br />
-                  ・カートページにて追加したアイテムや数量を確認、編集が可能
+                  ・Users can view and edit items added to the cart as well as
+                  the quantity on the cart page.
                 </p>
               </div>
             </div>
@@ -125,7 +140,7 @@ const ProjectPage = () => {
         </div>
         <div className={styles.techStack}>
           <div className={styles.techStackHeader}>
-            <h1>Tech Stack（使用した技術）</h1>
+            <h1>Tech Stack</h1>
           </div>
           <div className={styles.techStackBody}>
             <div className="iconsContainer">

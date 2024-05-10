@@ -128,8 +128,9 @@ a {
 html {
   background: rgb(var(--bg-start-rgb));
   color: rgb(var(--text-rgb));
-  font-family: var(--font-noto-serif);
+  font-family: var(--font-garamond);
   scroll-behavior: smooth;
+  /* font-size: 1.25rem; */
 }
 
 h1,
@@ -187,7 +188,8 @@ a {
 }
 
 .text-bold {
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 1.4rem;
 }
 
 .iconsContainer {
@@ -247,4 +249,15 @@ a.style-unset {
 .hoverBg:hover {
   opacity: 100;
   transition: all .2s;
+}
+
+.text-subtitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.text-subtitle-italic {
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-style: italic;
 }

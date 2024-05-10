@@ -28,25 +28,33 @@ const ProjectPage = () => {
       </div>
       <div className={styles.project}>
         <div className={styles.projectHeader}>
-          <h1 className={styles.projectTitle}>Remediアプリ</h1>
-          <h1 className={styles.projectDatePlace}>2024.02〜現在 | チリ</h1>
+          <h1 className={styles.projectTitle}>Remedi App</h1>
+          <h1 className={styles.projectDatePlace}>
+            Feb 2024 - Present | Chile
+          </h1>
         </div>
         <div className={styles.projectOverview}>
-          薬剤系サービスWebアプリケーション
+          <span className="text-subtitle-italic">
+            Pharmaceutical Service Web Application
+          </span>
           <br />
           <br />
-          【プロジェクト概要】
+          Project Overview:
           <br />
-          ・Remedi、薬局、患者の3タイプのユーザーを対象とした3サイドのWebアプリケーション
+          ・Remedi, a three-sided web application targeting three types of
+          users: Remedi, pharmacies, and patients.
           <br />
-          ・薬局や薬を必要とする患者がプラットフォーム上で薬の注文をできるサービス
+          ・A service where pharmacies and patients needing medication can place
+          orders on the platform.
           <br />
-          ・Remedi管理画面から薬局の売上や各薬の販売数などを記録および管理
+          ・Recording and management of pharmacy sales and the number of sales
+          for each medication from the Remedi administration panel.
           <br />
-          ・WhatsAppとの統合により、プラットフォーム外から受付可能
+          ・Integration with WhatsApp, enabling reception from outside the
+          platform.
           <br />
           <br />
-          【URL】
+          URL:
           <br />
           <a
             href="https://remedi-next.vercel.app/"
@@ -60,7 +68,6 @@ const ProjectPage = () => {
           <div className={styles.projectDetailsHeader}>
             <h1>
               My <span className="accent-color">Responsibilities</span>
-              （担当した業務）
             </h1>
             <Liner />
           </div>
@@ -72,17 +79,21 @@ const ProjectPage = () => {
               <div>
                 <p>
                   <span className="text-bold">
-                    ①ユーザーアカウント設定画面の開発内容
+                    1. User Account Settings Page
                   </span>
                   <br />
                   <br />
-                  ・/ajustes（設定ルート）を追加
+                  ・Added /ajustes (settings route).
                   <br />
-                  ・ユーザーが登録時に設定したプロフィール情報を編集できる機能を実装
+                  ・Implemented functionality for users to edit profile
+                  information set during registration.
                   <br />
-                  ・DBからアカウント設定情報を取得し、設定画面の入力欄に自動で表示する機能を追加
+                  ・Added functionality to retrieve account settings information
+                  from the database and automatically display it in the input
+                  fields of the settings page.
                   <br />
-                  ・入力欄（Inputコンポーネント）に必須項目のプロパティを追加
+                  ・Added required properties to the input fields (Input
+                  component).
                 </p>
               </div>
             </div>
@@ -93,21 +104,24 @@ const ProjectPage = () => {
               <div>
                 <p>
                   <span className="text-bold">
-                    ②患者から送信された処方箋の注文リクエストに対する薬局側の返信ページの開発内容
+                    2. Pharmacy Response Page to Prescription Order Requests
+                    Sent by Patients
                   </span>
                   <br />
                   <br />
-                  ・/responder-presquesto（注文リクエストへの返信ルート）を追加
+                  ・Added /responder-presquesto (response route to order
+                  requests).
                   <br />
-                  ・ルートから注文リクエストのIDを読み取る
+                  ・Read the order request ID from the route.
                   <br />
-                  ・注文内容を表示
+                  ・Display order details.
                   <br />
-                  ・薬局側からの返信用フォームを表示し、入力機能を実装
+                  ・Display a reply form for pharmacies and implement input
+                  functionality.
                   <br />
-                  ・注文リクエストに対する返信をデータベースに更新
+                  ・Update the database with the reply to the order request.
                   <br />
-                  ・患者側で返信内容を確認できるようにする
+                  ・Enable patients to view the reply content.
                 </p>
               </div>
             </div>
@@ -119,23 +133,28 @@ const ProjectPage = () => {
               <div>
                 <p>
                   <span className="text-bold">
-                    ③薬局のビジネスバリデーション機能の実装内容
+                    3. Pharmacy Business Validation Feature
                   </span>
                   <br />
                   <br />
-                  ・全てのユーザーのデータベース及びセッションに、activeステータスのプロパティを追加
+                  ・Added an active status property to the database and session
+                  for all users.
                   <br />
-                  ・Remediおよび患者は、アカウント設定を完了すると、active
-                  ステータスがtrueになり、アプリの利用が可能
+                  ・When Remedi and patients complete account setup, the active
+                  status becomes true, allowing app usage.
                   <br />
-                  ・薬局はアカウント設定が完了すると、Remediがプロフィール情報を確認し、バリデーションが成功したら、アカウントのアクティベートリンクを薬局にメールで送信
+                  ・When a pharmacy completes account setup, Remedi verifies the
+                  profile information, sends an account activation link to the
+                  pharmacy via email upon successful validation.
                   <br />
-                  ・薬局側が受け取ったアクティベートリンクをクリックしてアカウントをアクティベートすると、active
-                  ステータスがtrueになり、アプリの使用が開始できる
+                  ・Clicking the activation link received by the pharmacy
+                  activates the account, setting the active status to true and
+                  allowing app usage to commence.
                   <br />
-                  ・データベースにActiveTokenのテーブルを追加
+                  ・Added ActiveToken table to the database.
                   <br />
-                  ・ActiveTokenは一度使用されると無効になり、期限が1週間で失効する
+                  ・ActiveToken becomes invalid after one use and expires after
+                  one week.
                 </p>
               </div>
             </div>
@@ -144,19 +163,21 @@ const ProjectPage = () => {
               <div>
                 <p>
                   <span className="text-bold">
-                    ④WhatsApp
-                    API統合により、患者がWhatsAppを通じて処方箋の注文リクエストを送信できるようにする機能の開発
+                    4. Feature Enabling Patients to Send Prescription Order
+                    Requests via WhatsApp API Integration
                   </span>
                   <br />
                   <br />
-                  ・Meta CloudからWhatsAppビジネスアカウントの設定
+                  ・Set up WhatsApp Business Account settings through Meta
+                  Cloud.
                   <br />
-                  ・Meta CloudでWhatsApp Flow APIの取得
+                  ・Obtained WhatsApp Flow API from Meta Cloud.
                   <br />
-                  ・WhatsApp Flow
-                  APIを使用したインタラクティブメッセージ機能の追加
+                  ・Added interactive messaging functionality using WhatsApp
+                  Flow API.
                   <br />
-                  ・患者の注文リクエストをデータベースに追加し、薬局側へ送信
+                  ・Added patient's order requests to the database and sent to
+                  pharmacies.
                 </p>
               </div>
             </div>
@@ -164,7 +185,7 @@ const ProjectPage = () => {
         </div>
         <div className={styles.techStack}>
           <div className={styles.techStackHeader}>
-            <h1>Tech Stack（使用した技術）</h1>
+            <h1>Tech Stack</h1>
           </div>
           <div className={styles.techStackBody}>
             <div className="iconsContainer">
